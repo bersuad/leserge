@@ -1,0 +1,261 @@
+body{
+	padding-top: 53px;
+}
+div,h1,h2,p,ul,li{
+	margin: 0; padding: 0; border: 0;
+}
+.nav a{
+	color: black;	
+}
+.hbrand a{
+	color: #48DDDD;
+}
+
+.liked{
+	color:red;
+}
+
+.unLiked{
+	color:#696;
+}
+
+#navbrand a:hover{
+	color: #48DDDD;
+	border-top: none;
+}
+
+.fnavbar{
+	background-color: white;
+	border-bottom: 0.05px solid #225378;
+}
+.fnavbar a:hover{
+	color: #48DDDD !important;
+	background-color: white !important;
+	border-top: 2px solid #225378;
+	transition: all 0.05s ease-in;
+}
+.active{
+	background-color: #F5F5F5;
+}
+.active a{
+	color: #48DDDD;
+	border-top: 2px solid #225378;
+	/*border-bottom: 0.1px solid black;*/
+}
+/*#banner{
+	position: fixed;
+	top: 100px;
+	height: 400px;
+}
+#content{
+	position: relative;
+	top: 400px;
+}*/
+#flist a:hover{
+	font-size:15;
+	color: #48DDDD !important;
+	transition: all 0.06s ease-in;
+}
+
+#sticky a:hover{
+	font-size:15;
+	color: #48DDDD !important;
+	transition: all 0.06s ease-in;
+}
+
+#image img{
+	min-width: auto; 
+	min-height: 100px; 
+	max-height: 200px; 
+	max-width: auto;
+}
+
+#image img:hover {
+	height: 400px;
+	width: auto;
+}
+
+.lsv a:hover{
+
+	background-color: rgba(0,0,0,0.1);
+	
+}
+
+.jumbotron{
+	position: relative;
+	background-size: cover;
+	height: 450px;
+	/*filter: blur(1px)*/
+	
+    /*opacity: 0.8;
+    filter: alpha(opacity=100);*/ /* For IE8 and earlier */
+}
+.jumbotron h1,h3,h4{
+	text-align: center;
+	color:white;	
+}
+
+
+label{
+	color: #000000;
+}
+.formlike{
+	margin-top: 1%;
+	/*filter: grayscale(50%);*/
+	filter: grayscale(0%);
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	background: rgba(100,100,100,0.1);
+	height: 350px;
+}
+.formlike label{
+	text-align: center;
+	color: white;
+	filter: blur(0.8px)
+}
+footer{
+	padding-top: 20px;
+	position: relative; 
+	bottom: 0; 
+	border-top: 0px solid #225378;  
+	margin-top: 1px;
+}
+.footer a{
+	/*color: #ffd700;*/
+	color: #3b5998;
+}
+#fback{
+	display: none;
+}
+
+#fsearch{
+	display: none;
+}
+#brandimage, #logout{
+	display:none;
+}
+
+#indexstyle{
+	margin-right: 90px; margin-left: 90px;
+}
+
+#indexrow{
+		margin-left:20px;
+	}
+
+#profilePic{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left:50px;
+}
+
+#image{
+	min-height: 380px;
+	max-height: 380px;
+	overflow:auto;
+}
+
+#post_contient{
+	margin-top: 8px;
+}
+#dont{
+	display:none;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 1024px){
+	.jumbotron{
+		marigin-top:100px;
+		height: 270px;
+	}
+
+	.fnavbar{
+		font-size:15;
+	}
+
+	.formlike{
+		marigin-top:100px;
+		height: 180px;
+		width:100%;
+	}
+
+	.jumbotron h1,h3{
+		font-size:15;
+	}
+
+	.jumbotron label{
+		font-size:10;
+	}
+
+	#fsearch, #fback{
+		display: block;
+	}
+	#shbtn{
+		display: block;
+	}
+	#formbox{
+		width:100%;
+	}
+	#vhead{
+		font-size:15;
+		width:100%;
+	}
+
+	#brandimage, #loged, #logout{
+		display:block;
+	}
+	.navul a{
+		font-size:12;
+	}
+	
+	#indexbtn, #postbtn, #fphone, #flist, #fabout, #sticky, #right_sticky, #navbrand{
+		display: none !important;
+	}
+	#leftProfile{
+		display: none !important;
+	}
+	#indexstyle{
+		margin-left: 0px;
+		margin-right:0px;
+	}
+	#indexrow{
+		margin-top:0px;
+		margin-left:8px;
+	}
+
+	#profilePic{
+	min-width: auto;
+	min-height: 50px;
+	max-height: 100px;
+	max-width: 100%;
+	border-radius: 20%;
+	}
+
+	#profileDisc{
+		font-size:10;
+	}
+
+	#authUser{
+		height:70px;
+	}
+
+	#image{
+		height: auto;
+	}
+	#post_contient{
+		margin-top: 8px;
+		font-size: 12px;
+
+	}
+	#indexfooter{
+		font-size:14px;
+	}
+
+	#commentnew{
+		display:none;
+	}
+
+}

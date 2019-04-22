@@ -1,0 +1,18 @@
+
+// Fonts
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//fontawsome
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+//falg css
+@import "node_modules/flag-icon-css/sass/_flag-icon.scss";
+
+//custom css
+@import "custom";
